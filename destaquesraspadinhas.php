@@ -98,7 +98,6 @@
 </section>
 
 <div class="scratch-grid">
-<div class="scratch-grid">
 <?php
 // ✅ CHANGE (PHP): Added a 'url_view' key to each card
 $scratch_cards = [

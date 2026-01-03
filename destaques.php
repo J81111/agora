@@ -97,7 +97,6 @@
 </section>
 
 <div class="scratch-grid">
-<div class="scratch-grid">
 <?php
 // ✅ CHANGE (PHP): Added a 'url_view' key to each card
 $scratch_cards = [
@@ -114,26 +113,6 @@ $scratch_cards = [
     ['img'=>'https://ik.imagekit.io/3kbnnws8u/Casa%20dos%20Sonhos.png?updatedAt=1757350104532','alt'=>'Casa dos Sonhos','title'=>'Casa dos sonhos','prize_info'=>'PRÊMIOS DE ATÉ R$ 60.000,00','price'=>'100,00', 'url_view' => 'raspe-e-ganhe'],
 ];
 foreach($scratch_cards as $card){ ?>
-    <div class="scratch-card">
-
-        <div class="card-image">
-            <img src="<?= htmlspecialchars($card['img']) ?>" alt="">
-        </div>
-
-        <div class="card-header">
-            <h1 class="title">
-                <?= htmlspecialchars($card['title']) ?>
-            </h1>
-
-            <h2 class="prize-info">
-                <?= htmlspecialchars($card['prize_info']) ?>
-            </h2>
-        </div>
-
-    </div>
-
-<?php } ?>
-</div>
     <div class="scratch-card">
         <div class="card-image"><img src="<?= htmlspecialchars($card['img']) ?>" alt="<?= htmlspecialchars($card['alt']) ?>"></div>
         <div class="card-header">
