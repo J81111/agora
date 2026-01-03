@@ -99,42 +99,21 @@
 
 <div class="scratch-grid">
 <?php
+// ✅ CHANGE (PHP): Added a 'url_view' key to each card
 $scratch_cards = [
+    ['img' => '/img/trocopremiado.png'],
 
-    [
-        "img" => "img/trocopremiado.png",
-        "title" => "Troco Premiado",
-        "prize_info" => "PRÊMIOS DE ATÉ R$ 1.000,00"
-    ],
+    ['img'=>'https://ik.imagekit.io/3kbnnws8u/Tech%20Mania.png?updatedAt=1757350104698','alt'=>'Tech Mania','title'=>'Tech Mania','prize_info'=>'PRÊMIOS DE ATÉ R$ 2.500,00','price'=>'1,00', 'url_view' => 'sorte-instantanea'],
 
-    [
-        "img" => "img/trocopremiado.png",
-        "title" => "Tech Mania",
-        "prize_info" => "PRÊMIOS DE ATÉ R$ 2.500,00"
-    ],
+    ['img'=>'https://ik.imagekit.io/3kbnnws8u/apple%20mania.png?updatedAt=1757350104484','alt'=>'Apple Mania','title'=>'Apple Mania','prize_info'=>'PRÊMIOS DE ATÉ R$ 5.000,00','price'=>'2,50', 'url_view' => 'raspadinha-suprema'],
 
-    [
-        "img" => "img/trocopremiado.png",
-        "title" => "Mania da Maçã",
-        "prize_info" => "PRÊMIOS DE ATÉ R$ 5.000,00"
-    ],
+    ['img'=>'https://ik.imagekit.io/3kbnnws8u/beleza%20premiada.png?updatedAt=1757350104732','alt'=>'Beleza Premiada','title'=>'Beleza Premiada','prize_info'=>'PRÊMIOS DE ATÉ R$ 15.000,00','price'=>'5,00', 'url_view' => 'raspa-relampago'],
 
-    [
-        "img" => "img/trocopremiado.png",
-        "title" => "Luxo Raspável",
-        "prize_info" => "PRÊMIOS DE ATÉ R$ 15.000,00"
-    ],
+    ['img'=>'https://ik.imagekit.io/3kbnnws8u/Luxo%20Rasp%C3%A1vel.png?updatedAt=1757350104504','alt'=>'Luxo Raspável','title'=>'Luxo Raspável','prize_info'=>'PRÊMIOS DE ATÉ R$ 30.000,00','price'=>'50,00', 'url_view' => 'raspadinha-magica'],
 
-    [
-        "img" => "img/trocopremiado.png",
-        "title" => "Casa dos Sonhos",
-        "prize_info" => "PRÊMIOS DE ATÉ R$ 100.000,00"
-    ]
-
+    ['img'=>'https://ik.imagekit.io/3kbnnws8u/Casa%20dos%20Sonhos.png?updatedAt=1757350104532','alt'=>'Casa dos Sonhos','title'=>'Casa dos sonhos','prize_info'=>'PRÊMIOS DE ATÉ R$ 60.000,00','price'=>'100,00', 'url_view' => 'raspe-e-ganhe'],
 ];
-
-foreach($scratch_cards as $card) {
-?>
+foreach($scratch_cards as $card){ ?>
     <div class="scratch-card">
         <div class="card-image"><img src="<?= htmlspecialchars($card['img']) ?>" alt="<?= htmlspecialchars($card['alt']) ?>"></div>
         <div class="card-header">
