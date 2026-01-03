@@ -100,34 +100,41 @@
 <div class="scratch-grid">
 <?php
 $scratch_cards = [
+
     [
         "img" => "img/trocopremiado.png",
         "title" => "Troco Premiado",
         "prize_info" => "PRÊMIOS DE ATÉ R$ 1.000,00"
     ],
+
     [
         "img" => "img/trocopremiado.png",
         "title" => "Tech Mania",
         "prize_info" => "PRÊMIOS DE ATÉ R$ 2.500,00"
     ],
+
     [
         "img" => "img/trocopremiado.png",
-        "title" => "Apple Mania",
+        "title" => "Mania da Maçã",
         "prize_info" => "PRÊMIOS DE ATÉ R$ 5.000,00"
     ],
+
     [
         "img" => "img/trocopremiado.png",
         "title" => "Luxo Raspável",
         "prize_info" => "PRÊMIOS DE ATÉ R$ 15.000,00"
     ],
+
     [
         "img" => "img/trocopremiado.png",
         "title" => "Casa dos Sonhos",
         "prize_info" => "PRÊMIOS DE ATÉ R$ 100.000,00"
-    ],
+    ]
+
 ];
+
+foreach($scratch_cards as $card) {
 ?>
-foreach($scratch_cards as $card){ ?>
     <div class="scratch-card">
         <div class="card-image"><img src="<?= htmlspecialchars($card['img']) ?>" alt="<?= htmlspecialchars($card['alt']) ?>"></div>
         <div class="card-header">
