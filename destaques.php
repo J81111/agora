@@ -100,15 +100,9 @@
 <?php
 // ✅ CHANGE (PHP): Added a 'url_view' key to each card
 $scratch_cards = [
-    [
-    'img' => 'IMG/trocopremiado.png',
-    'title' => 'Troco Premiado',
-    'prize_info' => 'PRÊMIOS DE ATÉ R$ 1.000,00',
-    'price' => '0,50',
-    'url_view' => '?view=centavo-da-sorte'
-],
+    ['img'=>'IMG/trocopremiado.png','alt'=>'Troco Premiado','title'=>'PRÊMIOS DE ATÉ R$ 1.000,00','prize_info'=>'0,50', 'url_view'=>'raspadinha-centavo-da-sorte'],
 
-    [img' => 'IMG/trocopremiado.png','alt'=>'Tech Mania','title'=>'Tech Mania','prize_info'=>'PRÊMIOS DE ATÉ R$ 2.500,00','price'=>'1,00', 'url_view' => 'sorte-instantanea'],
+    ['img'=>'https://ik.imagekit.io/3kbnnws8u/Tech%20Mania.png?updatedAt=1757350104698','alt'=>'Tech Mania','title'=>'Tech Mania','prize_info'=>'PRÊMIOS DE ATÉ R$ 2.500,00','price'=>'1,00', 'url_view' => 'sorte-instantanea'],
 
     ['img'=>'https://ik.imagekit.io/3kbnnws8u/apple%20mania.png?updatedAt=1757350104484','alt'=>'Apple Mania','title'=>'Apple Mania','prize_info'=>'PRÊMIOS DE ATÉ R$ 5.000,00','price'=>'2,50', 'url_view' => 'raspadinha-suprema'],
 
