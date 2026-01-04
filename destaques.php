@@ -106,7 +106,7 @@ $scratch_cards = [
 
     ['img'=>'https://ik.imagekit.io/xina/PREMIOS-DIVERSOS-1.jpg','alt'=>'Apple Mania','title'=>'Apple Mania','prize_info'=>'PRÊMIOS DE ATÉ R$ 5.000,00','price'=>'2,50', 'url_view' => 'raspadinha-suprema'],
 
-    ['img'=>'https://ik.imagekit.io/3kbnnws8u/beleza%20premiada.png?updatedAt=1757350104732','alt'=>'Beleza Premiada','title'=>'Beleza Premiada','prize_info'=>'PRÊMIOS DE ATÉ R$ 15.000,00','price'=>'5,00', 'url_view' => 'raspa-relampago'],
+    ['img'=>'https://ik.imagekit.io/xina/BIKE-MAQUINA-MOTO.jpg','alt'=>'Beleza Premiada','title'=>'Beleza Premiada','prize_info'=>'PRÊMIOS DE ATÉ R$ 15.000,00','price'=>'5,00', 'url_view' => 'raspa-relampago'],
 
     ['img'=>'https://ik.imagekit.io/xina/OIP%20(2).webp','alt'=>'Luxo Raspável','title'=>'Luxo Raspável','prize_info'=>'PRÊMIOS DE ATÉ R$ 30.000,00','price'=>'50,00', 'url_view' => 'raspadinha-magica'],
 
