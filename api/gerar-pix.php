@@ -23,10 +23,10 @@ require_once __DIR__ . '/../db.php';
 // Constantes para as APIs
 
 // ZEROONEPAY (Token na URL. API_URL é o ENDPOINT base)
-$ZEROONEPAY_API_TOKEN = '#';
+$ZEROONEPAY_API_TOKEN = 'vaDRTt1JA0VoBeLWLqn77qZBPj8hQuM3P8Aaq07rPt0K8twGb93w0GOWNTl8';
 $ZEROONEPAY_API_URL = 'https://api.zeroonepay.com.br/api'; // Endpoint base
-$ZEROONEPAY_OFFER_HASH = '#';
-$ZEROONEPAY_PRODUCT_HASH = '#';
+$ZEROONEPAY_OFFER_HASH = 'zyhot7iw3x';
+$ZEROONEPAY_PRODUCT_HASH = 'dlrhlp9tes';
 
 // IRONPAY (Token na URL. ENDPOINT é o base)
 $IRONPAY_API_TOKEN = '#';
