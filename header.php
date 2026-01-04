@@ -1,5 +1,7 @@
 <?php
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 $isAuth = isset($_SESSION['user']);            // ajuste ao que você já usa
 $user   = $_SESSION['user'] ?? [];              // ['nome','avatar','saldo']
 ?>
