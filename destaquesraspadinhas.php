@@ -101,7 +101,7 @@
 <?php
 // ✅ CHANGE (PHP): Added a 'url_view' key to each card
 $scratch_cards = [
-    ['img'=>'IMG/trocopremiado.png', 'title'=>'Troco Premiado', 'prize_info'=>'PRÊMIOS DE ATÉ R$ 1.000,00', 'price'=>'0,50', 'url_view'=>'raspadinha-centavo-da-sorte'],
+    ['img'=>'https://ik.imagekit.io/xina/png-transparent-iphone-14.png','alt'=>'Troco Premiado','title'=>'Troco Premiado','prize_info'=>'PRÊMIOS DE ATÉ R$ 1.000,00','price'=>'0,50', 'url_view' => 'centavo-da-sorte'],
 
     ['img'=>'https://ik.imagekit.io/3kbnnws8u/Tech%20Mania.png?updatedAt=1757350104698','alt'=>'Tech Mania','title'=>'Tech Mania','prize_info'=>'PRÊMIOS DE ATÉ R$ 2.500,00','price'=>'1,00', 'url_view' => 'sorte-instantanea'],
 
