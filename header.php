@@ -10,7 +10,7 @@ $user   = $_SESSION['user'] ?? [];              // ['nome','avatar','saldo']
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title><?= $pageTitle ?? 'Raspa Green'; ?></title>
-<link rel="icon" type="image/x-icon" href="https://ik.imagekit.io/3kbnnws8u/raspa-green-logo.png?updatedAt=1757348357863">
+<link rel="icon" type="image/x-icon" href="https://ik.imagekit.io/xina/ChatGPT%20Image%204%20de%20jan.%20de%202026,%2009_25_37.png?updatedAt=1767529576833">
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -361,7 +361,7 @@ body.menu-is-open .mobile-menu-drawer{transform:translateX(0);}
   <div class="header-container">
     <div class="header-left">
       <a href="/" class="logo-link">
-        <img src="https://ik.imagekit.io/3kbnnws8u/raspa-green-logo.png?updatedAt=1757348357863" alt="Logo do Site" class="logo-img">
+        <img src="https://ik.imagekit.io/xina/ChatGPT%20Image%204%20de%20jan.%20de%202026,%2009_25_37.png?updatedAt=1767529576833" alt="Logo do Site" class="logo-img">
       </a>
       <nav class="main-nav">
         <ul>
