@@ -1,9 +1,9 @@
 <?php
 // Array com os dados dos prêmios
 $prizes = [
-    ['img' => 'https://ik.imagekit.io/3kbnnws8u/PRIZES/20k-removebg-preview.png?updatedAt=1757374679331', 'name' => '20.000 Reais', 'value' => '20.000,00'],
-    ['img' => 'https://ik.imagekit.io/3kbnnws8u/PRIZES/variant_cg_160_start_prata_met_lico.png?updatedAt=1757352246895', 'name' => 'Moto CG', 'value' => '16.500,00'],
-    ['img' => 'https://ik.imagekit.io/3kbnnws8u/PRIZES/variant_biz_110i_vermelho.png?updatedAt=1757352246694', 'name' => 'Moto Biz', 'value' => '13.000,00'],
+    ['img' => 'https://ik.imagekit.io/kyjz2djk3p/500-REAIS.png', 'name' => '20.000 Reais', 'value' => '20.000,00'],
+    ['img' => 'https://ik.imagekit.io/kyjz2djk3p/500-REAIS.png', 'name' => 'Moto CG', 'value' => '16.500,00'],
+    ['img' => 'https://ik.imagekit.io/kyjz2djk3p/500-REAIS.png', 'name' => 'Moto Biz', 'value' => '13.000,00'],
     ['img' => 'https://ik.imagekit.io/3kbnnws8u/PRIZES/variant_pop_110i_branco.png?updatedAt=1757352247943', 'name' => 'Moto Honda', 'value' => '11.500,00'],
     ['img' => 'https://ik.imagekit.io/3kbnnws8u/PRIZES/variant_iphone_15_pro_256_gb_tit_nio_natural.png?updatedAt=1757352247590', 'name' => 'iPhone 15 Pro', 'value' => '11.000,00'],
     ['img' => 'https://ik.imagekit.io/3kbnnws8u/PRIZES/10k.png', 'name' => '10.000 Reais', 'value' => '10.000,00'],
