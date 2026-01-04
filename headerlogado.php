@@ -274,7 +274,7 @@ ul{list-style:none;}
   <div class="header-container">
     <div class="header-left">
       <a href="/inicio.php" class="logo-link">
-        <img src="https://ik.imagekit.io/3kbnnws8u/raspa-green-logo.png?updatedAt=1757348357863" alt="Logo" class="logo-img">
+        <img src="https://ik.imagekit.io/xina/ChatGPT%20Image%204%20de%20jan.%20de%202026,%2009_25_37.png?updatedAt=1767529576833" alt="Logo" class="logo-img">
       </a>
       <nav class="main-nav">
         <ul>
